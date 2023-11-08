@@ -55,7 +55,11 @@ h1 span{
 .contactSection .mailSvg{
     position: absolute;
     stroke: cyan;
-    margin: auto;
+    margin: 0 auto;
+}
+.mailSvg svg{
+    max-width: 450px;
+    max-height: 450px;
 }
 form{
     display: flex;

@@ -6,11 +6,13 @@ import Main from './components/main/Main'
 import Aboutme from './components/aboutme/Aboutme'
 import Contact from './components/contact/Contact'
 import ScrollTop from './scrollTop'
+import Cursor from './components/cursor/Cursor'
 
 const App = () => {
   return (
     <>
     <Header/>
+    <Cursor/>
     <ScrollTop/>
     <Hero/> 
     <Aboutme/>   
