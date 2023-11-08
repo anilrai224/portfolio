@@ -1,0 +1,53 @@
+#main-container{
+    width: 100%;
+    color: #000;
+}
+#main-container h1{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#main-container h1 span{
+    color: aqua;
+}
+#main-container .skill{
+    padding: 0 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.skill .skill-content{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 8px;
+    transition: 900ms;
+}
+.skill-content:hover{
+    background:transparent;
+    border: 1px solid aqua;
+    color: #fff;
+    cursor: pointer;
+}
+.skill-content h3{
+    text-align: center;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;    
+}
+.skill-content h3 .skill_logo{
+    padding-left: 10px;
+    font-size: 25px;
+}
+.skill-content p{
+    text-align: justify;
+}
+@media only screen and (max-width:774px){
+    #main-container .skill{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width:502px){
+    #main-container .skill{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../My Project/tercking"
+		},
+		{
+			"path": "../../../../../Third sem/Web Technology/responsive"
+		},
+		{
+			"path": "../../../../../My Project/medic"
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../../Third sem/Web Technology/xml"
+		},
+		{
+			"path": "../../../../../Third sem/Web Technology/subash/Project web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "xml"
+	}
+}

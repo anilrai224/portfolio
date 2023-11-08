@@ -1,0 +1,73 @@
+
+#aboutMe__container{
+    padding-bottom: 100px;
+}
+.aboutMe-content{
+    width: 70%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#aboutMe__container .aboutMe-avatar{
+    border-radius: 8px;
+    width: 30%;
+    height: 320px;
+    background-color: aqua;
+}
+#aboutMe__container .aboutMe-avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotate(13deg);
+    border-radius: 8px;
+    transition: .8s;
+    cursor: pointer;
+}
+#aboutMe__container .aboutMe-avatar:hover img{
+    transform:rotate(0deg);
+}
+#aboutMe__container .aboutMe-description{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    flex-direction: column;
+}
+.lets-talk{
+    width: max-content;
+    padding: 7px 15px;
+    margin-top: 20px;
+    background-color: aqua;
+    border-radius: 4px;
+    color: #000;
+    transition: 1.2s;
+}
+.lets-talk:hover{
+    background-color: transparent;
+    color: aqua;
+    border: 1px solid aqua;
+}
+@media (max-width:788px) {
+    .aboutMe-content{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    #aboutMe__container .aboutMe-avatar{
+        width: 70%;
+        margin: 0 auto;
+    }
+    #aboutMe__container .aboutMe-description{
+        width: 76%;
+        margin: 60px auto 0;
+    }
+}
+@media (max-width:493px) {
+    #aboutMe__container .aboutMe-avatar{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #aboutMe__container .aboutMe-description{
+        width: 100%;
+    }
+}
+

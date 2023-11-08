@@ -1,0 +1,101 @@
+h1{
+    text-align: center;
+    margin: 140px 0 90px 0;
+}
+h1 span{
+    color: #fff;
+}
+#contact_container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#contact_container .left_contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left_contact .contact_list{
+    width: 250px;
+    border-radius: 8px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s;
+}
+.contact_list h4{
+    color: #000;
+    transition: 1.5s;
+}
+.contact_list .contact_icon{
+    color: #000;
+    padding-bottom: 5px;
+    font-size: 24px;
+    transition: 1.5s;
+}
+.contact_list:hover{
+    background-color: #000;
+    border: 1px solid aqua;
+    cursor: pointer;
+}
+.contact_list:hover .contact_icon{
+    color: #fff;
+}
+.contact_list:hover h4{
+    color: #fff;
+}
+.contactSection{
+    position: relative;
+}
+.contactSection .mailSvg{
+    position: absolute;
+    stroke: cyan;
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+form .mailSvg{
+    background-color: red;
+}
+form input,textarea{
+    padding:20px 10px;
+    border-radius: 8px;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    border: 1px solid aqua;
+    resize: none;
+    font-size: 16px;
+}
+form button{
+    padding:10px 33px;
+    width: max-content; 
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid aqua;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1s;
+}
+form button:hover{
+    color: #000;
+    background-color: aqua;
+}
+@media(max-width:799px){
+    #contact_container{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    #contact_container .contact_list{
+        margin: 0 auto;
+    }
+}

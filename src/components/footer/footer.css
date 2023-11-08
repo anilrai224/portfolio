@@ -1,0 +1,83 @@
+.footer{
+    background-color: aqua;
+    color: #000;
+    margin-top: 100px;
+    position: relative;
+}
+.footer_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.curve svg{
+    height: auto;
+    width: 100%;
+    background-color: #000;
+    border: none;
+}
+.curve path{
+    height: 100%;
+}
+.footer_content .footer_logo h1{
+    color: #000;
+    font-family: 'Cinzel';
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 70px;
+}
+.footer_logo h1 span{
+    color: #fff;
+}
+.footer .header_links{
+    margin-top: -50px;
+}
+.header_links ul{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+}
+.header_links ul li{
+    font-size: 19px;
+}
+.footer .header_links ul li a{
+    color: #000;
+}
+.header_links ul li:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+.footer .social_links{
+    display: flex;
+    gap: 20px;
+    font-size: 19px;
+    color: #fff;
+    cursor: pointer;
+}
+.social_links .social_links-icon{
+    background-color: #000;
+    padding: 10px;
+    border-radius: 4px;
+    transition: 1.3s;
+}
+.social_links-icon:hover{
+    background-color: transparent;
+    transform: scale(2);
+}
+.social_links .social_links-icon:nth-child(4):hover{
+    color:#00acee;
+}
+.social_links .social_links-icon:nth-child(3):hover{
+    color:#0077b5;
+}
+.social_links .social_links-icon:nth-child(2):hover{
+    color:#bc2a8d;
+}
+.social_links .social_links-icon:nth-child(1):hover{
+    color:#3b5998;
+}
+.footer .copyright{
+    padding-bottom: 50px;
+}
